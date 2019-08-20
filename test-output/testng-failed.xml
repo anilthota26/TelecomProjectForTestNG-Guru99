@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests">
+        <methods>
+          <include name="initilize"/>
+          <include name="testCaseForMobileField"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests -->
+      <class name="Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests">
+        <methods>
+          <include name="validating_SMSPerCharges"/>
+          <include name="TearDown"/>
+          <include name="validating_CharacterNotAllowed_TST008"/>
+          <include name="initilize"/>
+        </methods>
+      </class> <!-- Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
