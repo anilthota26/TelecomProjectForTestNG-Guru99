@@ -5,10 +5,7 @@
     <classes>
      
       <class name="Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests">
-      <methods>
-      <exclude name="testCaseForAddress"/> 
-      
-      </methods>
+     
       </class>
       
       <class name="Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests"/>

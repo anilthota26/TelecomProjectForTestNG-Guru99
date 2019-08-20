@@ -30,18 +30,18 @@ public class TelecomBase {
 //		String url=prop.getProperty("url");
 		if(browserName.equalsIgnoreCase("chrome"))
 		{
-			log.info("***************************Chrome Browser Started*************************");
+			log.info("Chrome Browser Started");
 			
 			System.setProperty("webdriver.chrome.driver","Y:\\Selenium Softwares\\chromedriver.exe");
 			driver=new ChromeDriver();
 		}
 		else if(browserName.equalsIgnoreCase("firefox")){
-			log.info("***************************FireFox Browser Started*************************");
+			log.info("FireFox Browser Started");
 			System.setProperty("webdriver.firefox.driver","Y:\\Selenium Softwares\\geckodriver.exe");
 			driver=new FirefoxDriver();	
 		}
 		else if(browserName.equalsIgnoreCase("edge")){
-			log.info("***************************Edge Browser Started*************************");
+			log.info("Edge Browser Started");
 			
 			System.setProperty("webdriver.edge.driver","Y:\\Selenium Softwares\\edgedriver.exe");
 			driver=new EdgeDriver();	

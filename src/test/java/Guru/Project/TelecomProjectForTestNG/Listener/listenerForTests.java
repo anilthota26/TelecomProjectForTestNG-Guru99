@@ -14,19 +14,19 @@ public class listenerForTests extends TelecomBase implements ITestListener {
 	public void onTestStart(ITestResult result) {
 		// TODO Auto-generated method stub
 		System.out.println(result.getMethod().getMethodName()+"_TestCase is Srarted");
-		log.info("***************************"+result.getMethod().getMethodName()+ "is_Started*************************");
+		log.info(result.getMethod().getMethodName()+ "is_Started");
 		
 	}
 
 	public void onTestSuccess(ITestResult result) {
 		// TODO Auto-generated method stub
 		System.out.println(result.getMethod().getMethodName()+"_is Passed");
-		log.info("***************************"+result.getMethod().getMethodName()+ "_is Passed*************************");
+		log.info(result.getMethod().getMethodName()+ "_is Passed");
 	}
 
 	public void onTestFailure(ITestResult result) {
 		System.out.println(result.getMethod().getMethodName()+"_is Failed");
-		log.info("***************************"+result.getMethod().getMethodName()+ "_is Failed*************************");
+		log.info(result.getMethod().getMethodName()+ "_is Failed");
 //		FailedTestcases(result.getMethod().getMethodName());
 			
 		
@@ -34,7 +34,7 @@ public class listenerForTests extends TelecomBase implements ITestListener {
 
 	public void onTestSkipped(ITestResult result) {
 		// TODO Auto-generated method stub
-		log.info("***************************"+result.getMethod().getMethodName()+ "is skipped*************************");
+		log.info(result.getMethod().getMethodName()+ "is skipped");
 	}
 
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {

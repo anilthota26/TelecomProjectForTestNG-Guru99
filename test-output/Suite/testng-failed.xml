@@ -6,6 +6,7 @@
       <class name="Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests">
         <methods>
           <include name="initilize"/>
+          <include name="testCaseForAddress"/>
           <include name="testCaseForMobileField"/>
           <include name="TearDown"/>
         </methods>

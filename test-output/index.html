@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods, 1 failed,   9 passed</span>
+                    <span class="method-stats">11 methods, 2 failed,   9 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -100,6 +100,11 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
                     </span>
                     <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests" class="method navigator-link" hash-for-method="testCaseForAddress">testCaseForAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests" class="method navigator-link" hash-for-method="testCaseForMobileField">testCaseForMobileField</a> <!-- method navigator-link -->
@@ -177,6 +182,17 @@
               <span class="class-name">Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCaseForAddress">
+                  </a> <!-- testCaseForAddress -->
+                  <span class="method-name">testCaseForAddress</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests.testCaseForAddress(addNewCustomerTestPageTests.java:86)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="testCaseForMobileField">
@@ -297,11 +313,7 @@
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests&quot;&gt;
-        &lt;methods&gt;
-          &lt;exclude name=&quot;testCaseForAddress&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests --&gt;
+      &lt;class name=&quot;Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests&quot;/&gt;
       &lt;class name=&quot;Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests&quot;/&gt;
       &lt;class name=&quot;Guru.Project.TelecomProjectForTestNG.Tests.testCase_TST010_AddTariffPlanToCust&quot;/&gt;
       &lt;class name=&quot;Guru.Project.TelecomProjectForTestNG.Tests.testCase_TST011_CheckingCustBill&quot;/&gt;
@@ -337,6 +349,10 @@
               </div> <!-- method-in-group -->
               <div class="method-in-group">
                 <span class="method-in-group-name">testCaseForAddCuustTextFields</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCaseForAddress</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
@@ -400,52 +416,56 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(10);
+data.addRows(11);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'addingNewCustomerTest')
 data.setCell(0, 2, 'Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests')
-data.setCell(0, 3, 41793);
+data.setCell(0, 3, 42159);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'addTariffToCustomer')
 data.setCell(1, 2, 'Guru.Project.TelecomProjectForTestNG.Tests.testCase_TST010_AddTariffPlanToCust')
-data.setCell(1, 3, 31423);
+data.setCell(1, 3, 36715);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'CheckingBillOfCustomer')
 data.setCell(2, 2, 'Guru.Project.TelecomProjectForTestNG.Tests.testCase_TST011_CheckingCustBill')
-data.setCell(2, 3, 26883);
+data.setCell(2, 3, 32693);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'validating_NumbersAndMustNotEmpty_TST009')
 data.setCell(3, 2, 'Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests')
-data.setCell(3, 3, 24372);
+data.setCell(3, 3, 24461);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'validating_CharacterNotAllowed_TST008')
 data.setCell(4, 2, 'Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests')
-data.setCell(4, 3, 24203);
+data.setCell(4, 3, 24432);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testCaseForMobileField')
-data.setCell(5, 2, 'Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests')
-data.setCell(5, 3, 19268);
+data.setCell(5, 1, 'addingNewTariff')
+data.setCell(5, 2, 'Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests')
+data.setCell(5, 3, 18856);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'addingNewTariff')
-data.setCell(6, 2, 'Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests')
-data.setCell(6, 3, 15663);
+data.setCell(6, 1, 'testCaseForMobileField')
+data.setCell(6, 2, 'Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests')
+data.setCell(6, 3, 18422);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'validating_SpecialChar_TST007')
-data.setCell(7, 2, 'Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests')
-data.setCell(7, 3, 14948);
+data.setCell(7, 1, 'testCaseForAddress')
+data.setCell(7, 2, 'Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests')
+data.setCell(7, 3, 14703);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'testCaseForAddCuustTextFields')
-data.setCell(8, 2, 'Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests')
-data.setCell(8, 3, 9577);
+data.setCell(8, 1, 'validating_SpecialChar_TST007')
+data.setCell(8, 2, 'Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests')
+data.setCell(8, 3, 14622);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'validating_SMSPerCharges')
-data.setCell(9, 2, 'Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests')
-data.setCell(9, 3, 8288);
+data.setCell(9, 1, 'testCaseForAddCuustTextFields')
+data.setCell(9, 2, 'Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests')
+data.setCell(9, 3, 13772);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validating_SMSPerCharges')
+data.setCell(10, 2, 'Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests')
+data.setCell(10, 3, 10642);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -460,16 +480,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">testCaseForAddress</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -485,130 +498,144 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addingNewCustomerTest</span>
-                <span class="method-start">17221 ms</span>
+                <span class="method-start">21720 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">59025 ms</span>
+                <span class="method-start">63895 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initilize</span>
-                <span class="method-start">60175 ms</span>
+                <span class="method-start">64849 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testCaseForMobileField</span>
-                <span class="method-start">69138 ms</span>
+                <span class="method-start">72870 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">88446 ms</span>
+                <span class="method-start">91310 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initilize</span>
-                <span class="method-start">89291 ms</span>
+                <span class="method-start">92131 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testCaseForAddCuustTextFields</span>
-                <span class="method-start">97526 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCaseForAddress</span>
+                <span class="method-start">100391 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">107115 ms</span>
+                <span class="method-start">115098 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initilize</span>
+                <span class="method-start">115967 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCaseForAddCuustTextFields</span>
+                <span class="method-start">123155 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">136929 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initilize</span>
-                <span class="method-start">108012 ms</span>
+                <span class="method-start">137745 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addingNewTariff</span>
-                <span class="method-start">115315 ms</span>
+                <span class="method-start">145793 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">130980 ms</span>
+                <span class="method-start">164652 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initilize</span>
-                <span class="method-start">131831 ms</span>
+                <span class="method-start">165477 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validating_SpecialChar_TST007</span>
-                <span class="method-start">139605 ms</span>
+                <span class="method-start">173281 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">154558 ms</span>
+                <span class="method-start">187907 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initilize</span>
-                <span class="method-start">155432 ms</span>
+                <span class="method-start">188758 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validating_NumbersAndMustNotEmpty_TST009</span>
-                <span class="method-start">163162 ms</span>
+                <span class="method-start">196189 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">187544 ms</span>
+                <span class="method-start">220667 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initilize</span>
-                <span class="method-start">188440 ms</span>
+                <span class="method-start">221568 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validating_CharacterNotAllowed_TST008</span>
-                <span class="method-start">196486 ms</span>
+                <span class="method-start">229292 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">220693 ms</span>
+                <span class="method-start">253727 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initilize</span>
-                <span class="method-start">221562 ms</span>
+                <span class="method-start">254602 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validating_SMSPerCharges</span>
-                <span class="method-start">228769 ms</span>
+                <span class="method-start">262620 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">237062 ms</span>
+                <span class="method-start">273265 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Guru.Project.TelecomProjectForTestNG.Tests.testCase_TST010_AddTariffPlanToCust</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">initilize</span>
-                <span class="method-start">237905 ms</span>
+                <span class="method-start">274078 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">addTariffToCustomer</span>
-                <span class="method-start">245906 ms</span>
+                <span class="method-start">281971 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">277334 ms</span>
+                <span class="method-start">318692 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Guru.Project.TelecomProjectForTestNG.Tests.testCase_TST011_CheckingCustBill</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initilize</span>
-                <span class="method-start">278162 ms</span>
+                <span class="method-start">319734 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">CheckingBillOfCustomer</span>
-                <span class="method-start">285832 ms</span>
+                <span class="method-start">327133 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">312718 ms</span>
+                <span class="method-start">359855 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

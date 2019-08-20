@@ -1,40 +1,44 @@
-2019-08-20 19:37:52,438  INFO [main] TelecomBase:33 - ***************************Chrome Browser Started*************************
-2019-08-20 19:38:09,648  INFO [main] TelecomBase:17 - ***************************addingNewCustomerTestis_Started*************************
-2019-08-20 19:38:51,447  INFO [main] TelecomBase:24 - ***************************addingNewCustomerTest_is Passed*************************
-2019-08-20 19:38:51,454  INFO [main] TelecomBase:77 - *************************** Browser Closed *************************
-2019-08-20 19:38:52,603  INFO [main] TelecomBase:33 - ***************************Chrome Browser Started*************************
-2019-08-20 19:39:01,565  INFO [main] TelecomBase:17 - ***************************testCaseForMobileFieldis_Started*************************
-2019-08-20 19:39:20,846  INFO [main] TelecomBase:29 - ***************************testCaseForMobileField_is Failed*************************
-2019-08-20 19:39:20,873  INFO [main] TelecomBase:77 - *************************** Browser Closed *************************
-2019-08-20 19:39:21,719  INFO [main] TelecomBase:33 - ***************************Chrome Browser Started*************************
-2019-08-20 19:39:29,954  INFO [main] TelecomBase:17 - ***************************testCaseForAddCuustTextFieldsis_Started*************************
-2019-08-20 19:39:39,530  INFO [main] TelecomBase:24 - ***************************testCaseForAddCuustTextFields_is Passed*************************
-2019-08-20 19:39:39,542  INFO [main] TelecomBase:77 - *************************** Browser Closed *************************
-2019-08-20 19:39:40,440  INFO [main] TelecomBase:33 - ***************************Chrome Browser Started*************************
-2019-08-20 19:39:47,743  INFO [main] TelecomBase:17 - ***************************addingNewTariffis_Started*************************
-2019-08-20 19:40:03,405  INFO [main] TelecomBase:24 - ***************************addingNewTariff_is Passed*************************
-2019-08-20 19:40:03,408  INFO [main] TelecomBase:77 - *************************** Browser Closed *************************
-2019-08-20 19:40:04,259  INFO [main] TelecomBase:33 - ***************************Chrome Browser Started*************************
-2019-08-20 19:40:12,032  INFO [main] TelecomBase:17 - ***************************validating_SpecialChar_TST007is_Started*************************
-2019-08-20 19:40:26,980  INFO [main] TelecomBase:24 - ***************************validating_SpecialChar_TST007_is Passed*************************
-2019-08-20 19:40:26,986  INFO [main] TelecomBase:77 - *************************** Browser Closed *************************
-2019-08-20 19:40:27,870  INFO [main] TelecomBase:33 - ***************************Chrome Browser Started*************************
-2019-08-20 19:40:35,589  INFO [main] TelecomBase:17 - ***************************validating_NumbersAndMustNotEmpty_TST009is_Started*************************
-2019-08-20 19:40:59,961  INFO [main] TelecomBase:24 - ***************************validating_NumbersAndMustNotEmpty_TST009_is Passed*************************
-2019-08-20 19:40:59,972  INFO [main] TelecomBase:77 - *************************** Browser Closed *************************
-2019-08-20 19:41:00,871  INFO [main] TelecomBase:33 - ***************************Chrome Browser Started*************************
-2019-08-20 19:41:08,913  INFO [main] TelecomBase:17 - ***************************validating_CharacterNotAllowed_TST008is_Started*************************
-2019-08-20 19:41:33,116  INFO [main] TelecomBase:24 - ***************************validating_CharacterNotAllowed_TST008_is Passed*************************
-2019-08-20 19:41:33,120  INFO [main] TelecomBase:77 - *************************** Browser Closed *************************
-2019-08-20 19:41:33,990  INFO [main] TelecomBase:33 - ***************************Chrome Browser Started*************************
-2019-08-20 19:41:41,196  INFO [main] TelecomBase:17 - ***************************validating_SMSPerChargesis_Started*************************
-2019-08-20 19:41:49,484  INFO [main] TelecomBase:24 - ***************************validating_SMSPerCharges_is Passed*************************
-2019-08-20 19:41:49,490  INFO [main] TelecomBase:77 - *************************** Browser Closed *************************
-2019-08-20 19:41:50,333  INFO [main] TelecomBase:33 - ***************************Chrome Browser Started*************************
-2019-08-20 19:41:58,333  INFO [main] TelecomBase:17 - ***************************addTariffToCustomeris_Started*************************
-2019-08-20 19:42:29,756  INFO [main] TelecomBase:24 - ***************************addTariffToCustomer_is Passed*************************
-2019-08-20 19:42:29,762  INFO [main] TelecomBase:77 - *************************** Browser Closed *************************
-2019-08-20 19:42:30,590  INFO [main] TelecomBase:33 - ***************************Chrome Browser Started*************************
-2019-08-20 19:42:38,259  INFO [main] TelecomBase:17 - ***************************CheckingBillOfCustomeris_Started*************************
-2019-08-20 19:43:05,142  INFO [main] TelecomBase:24 - ***************************CheckingBillOfCustomer_is Passed*************************
-2019-08-20 19:43:05,146  INFO [main] TelecomBase:77 - *************************** Browser Closed *************************
+2019-08-20 19:58:00,582  INFO [main] TelecomBase:33 - Chrome Browser Started
+2019-08-20 19:58:22,288  INFO [main] TelecomBase:17 - addingNewCustomerTestis_Started
+2019-08-20 19:59:04,455  INFO [main] TelecomBase:24 - addingNewCustomerTest_is Passed
+2019-08-20 19:59:04,465  INFO [main] TelecomBase:77 - *************************** Browser Closed *************************
+2019-08-20 19:59:05,419  INFO [main] TelecomBase:33 - Chrome Browser Started
+2019-08-20 19:59:13,439  INFO [main] TelecomBase:17 - testCaseForMobileFieldis_Started
+2019-08-20 19:59:31,861  INFO [main] TelecomBase:29 - testCaseForMobileField_is Failed
+2019-08-20 19:59:31,879  INFO [main] TelecomBase:77 - *************************** Browser Closed *************************
+2019-08-20 19:59:32,707  INFO [main] TelecomBase:33 - Chrome Browser Started
+2019-08-20 19:59:40,959  INFO [main] TelecomBase:17 - testCaseForAddressis_Started
+2019-08-20 19:59:55,662  INFO [main] TelecomBase:29 - testCaseForAddress_is Failed
+2019-08-20 19:59:55,667  INFO [main] TelecomBase:77 - *************************** Browser Closed *************************
+2019-08-20 19:59:56,536  INFO [main] TelecomBase:33 - Chrome Browser Started
+2019-08-20 20:00:03,723  INFO [main] TelecomBase:17 - testCaseForAddCuustTextFieldsis_Started
+2019-08-20 20:00:17,495  INFO [main] TelecomBase:24 - testCaseForAddCuustTextFields_is Passed
+2019-08-20 20:00:17,497  INFO [main] TelecomBase:77 - *************************** Browser Closed *************************
+2019-08-20 20:00:18,314  INFO [main] TelecomBase:33 - Chrome Browser Started
+2019-08-20 20:00:26,362  INFO [main] TelecomBase:17 - addingNewTariffis_Started
+2019-08-20 20:00:45,218  INFO [main] TelecomBase:24 - addingNewTariff_is Passed
+2019-08-20 20:00:45,220  INFO [main] TelecomBase:77 - *************************** Browser Closed *************************
+2019-08-20 20:00:46,046  INFO [main] TelecomBase:33 - Chrome Browser Started
+2019-08-20 20:00:53,850  INFO [main] TelecomBase:17 - validating_SpecialChar_TST007is_Started
+2019-08-20 20:01:08,471  INFO [main] TelecomBase:24 - validating_SpecialChar_TST007_is Passed
+2019-08-20 20:01:08,484  INFO [main] TelecomBase:77 - *************************** Browser Closed *************************
+2019-08-20 20:01:09,327  INFO [main] TelecomBase:33 - Chrome Browser Started
+2019-08-20 20:01:16,758  INFO [main] TelecomBase:17 - validating_NumbersAndMustNotEmpty_TST009is_Started
+2019-08-20 20:01:41,218  INFO [main] TelecomBase:24 - validating_NumbersAndMustNotEmpty_TST009_is Passed
+2019-08-20 20:01:41,235  INFO [main] TelecomBase:77 - *************************** Browser Closed *************************
+2019-08-20 20:01:42,138  INFO [main] TelecomBase:33 - Chrome Browser Started
+2019-08-20 20:01:49,860  INFO [main] TelecomBase:17 - validating_CharacterNotAllowed_TST008is_Started
+2019-08-20 20:02:14,292  INFO [main] TelecomBase:24 - validating_CharacterNotAllowed_TST008_is Passed
+2019-08-20 20:02:14,296  INFO [main] TelecomBase:77 - *************************** Browser Closed *************************
+2019-08-20 20:02:15,171  INFO [main] TelecomBase:33 - Chrome Browser Started
+2019-08-20 20:02:23,188  INFO [main] TelecomBase:17 - validating_SMSPerChargesis_Started
+2019-08-20 20:02:33,830  INFO [main] TelecomBase:24 - validating_SMSPerCharges_is Passed
+2019-08-20 20:02:33,833  INFO [main] TelecomBase:77 - *************************** Browser Closed *************************
+2019-08-20 20:02:34,647  INFO [main] TelecomBase:33 - Chrome Browser Started
+2019-08-20 20:02:42,540  INFO [main] TelecomBase:17 - addTariffToCustomeris_Started
+2019-08-20 20:03:19,254  INFO [main] TelecomBase:24 - addTariffToCustomer_is Passed
+2019-08-20 20:03:19,261  INFO [main] TelecomBase:77 - *************************** Browser Closed *************************
+2019-08-20 20:03:20,304  INFO [main] TelecomBase:33 - Chrome Browser Started
+2019-08-20 20:03:27,701  INFO [main] TelecomBase:17 - CheckingBillOfCustomeris_Started
+2019-08-20 20:04:00,394  INFO [main] TelecomBase:24 - CheckingBillOfCustomer_is Passed
+2019-08-20 20:04:00,424  INFO [main] TelecomBase:77 - *************************** Browser Closed *************************
