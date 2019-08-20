@@ -1,178 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="11" passed="8" failed="2" skipped="0">
+<testng-results ignored="1" total="11" passed="9" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-08-20T12:53:50Z" name="Suite" finished-at="2019-08-20T12:58:55Z" duration-ms="305098">
+  <suite started-at="2019-08-20T14:07:52Z" name="Suite" finished-at="2019-08-20T14:13:06Z" duration-ms="313631">
     <groups>
       <group name="addTariffToCust">
-        <method signature="testCase_TST010_AddTariffPlanToCust.addTariffToCustomer()[pri:9, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_TST010_AddTariffPlanToCust@71c3b41]" name="addTariffToCustomer" class="Guru.Project.TelecomProjectForTestNG.Tests.testCase_TST010_AddTariffPlanToCust"/>
+        <method signature="testCase_TST010_AddTariffPlanToCust.addTariffToCustomer()[pri:9, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_TST010_AddTariffPlanToCust@54e1c68b]" name="addTariffToCustomer" class="Guru.Project.TelecomProjectForTestNG.Tests.testCase_TST010_AddTariffPlanToCust"/>
       </group> <!-- addTariffToCust -->
       <group name="addCustomer">
-        <method signature="addNewCustomerTestPageTests.addingNewCustomerTest()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests@343570b7]" name="addingNewCustomerTest" class="Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests"/>
-        <method signature="addNewCustomerTestPageTests.testCaseForAddCuustTextFields()[pri:3, instance:Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests@343570b7]" name="testCaseForAddCuustTextFields" class="Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests"/>
-        <method signature="addNewCustomerTestPageTests.testCaseForMobileField()[pri:1, instance:Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests@343570b7]" name="testCaseForMobileField" class="Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests"/>
+        <method signature="addNewCustomerTestPageTests.addingNewCustomerTest()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests@7d4f9aae]" name="addingNewCustomerTest" class="Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests"/>
+        <method signature="addNewCustomerTestPageTests.testCaseForAddCuustTextFields()[pri:3, instance:Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests@7d4f9aae]" name="testCaseForAddCuustTextFields" class="Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests"/>
+        <method signature="addNewCustomerTestPageTests.testCaseForMobileField()[pri:1, instance:Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests@7d4f9aae]" name="testCaseForMobileField" class="Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests"/>
       </group> <!-- addCustomer -->
       <group name="checkBill">
-        <method signature="testCase_TST011_CheckingCustBill.CheckingBillOfCustomer()[pri:10, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_TST011_CheckingCustBill@236e3f4e]" name="CheckingBillOfCustomer" class="Guru.Project.TelecomProjectForTestNG.Tests.testCase_TST011_CheckingCustBill"/>
+        <method signature="testCase_TST011_CheckingCustBill.CheckingBillOfCustomer()[pri:10, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_TST011_CheckingCustBill@53aac487]" name="CheckingBillOfCustomer" class="Guru.Project.TelecomProjectForTestNG.Tests.testCase_TST011_CheckingCustBill"/>
       </group> <!-- checkBill -->
       <group name="addNewTariff">
-        <method signature="testCase_AddingNewTariffPageTests.addingNewTariff()[pri:4, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@157853da]" name="addingNewTariff" class="Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests"/>
-        <method signature="testCase_AddingNewTariffPageTests.validating_CharacterNotAllowed_TST008()[pri:7, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@157853da]" name="validating_CharacterNotAllowed_TST008" class="Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests"/>
-        <method signature="testCase_AddingNewTariffPageTests.validating_SMSPerCharges()[pri:8, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@157853da]" name="validating_SMSPerCharges" class="Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests"/>
-        <method signature="testCase_AddingNewTariffPageTests.validating_NumbersAndMustNotEmpty_TST009()[pri:6, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@157853da]" name="validating_NumbersAndMustNotEmpty_TST009" class="Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests"/>
-        <method signature="testCase_AddingNewTariffPageTests.validating_SpecialChar_TST007()[pri:5, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@157853da]" name="validating_SpecialChar_TST007" class="Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests"/>
+        <method signature="testCase_AddingNewTariffPageTests.addingNewTariff()[pri:4, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@72e5a8e]" name="addingNewTariff" class="Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests"/>
+        <method signature="testCase_AddingNewTariffPageTests.validating_CharacterNotAllowed_TST008()[pri:7, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@72e5a8e]" name="validating_CharacterNotAllowed_TST008" class="Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests"/>
+        <method signature="testCase_AddingNewTariffPageTests.validating_SMSPerCharges()[pri:8, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@72e5a8e]" name="validating_SMSPerCharges" class="Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests"/>
+        <method signature="testCase_AddingNewTariffPageTests.validating_NumbersAndMustNotEmpty_TST009()[pri:6, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@72e5a8e]" name="validating_NumbersAndMustNotEmpty_TST009" class="Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests"/>
+        <method signature="testCase_AddingNewTariffPageTests.validating_SpecialChar_TST007()[pri:5, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@72e5a8e]" name="validating_SpecialChar_TST007" class="Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests"/>
       </group> <!-- addNewTariff -->
     </groups>
-    <test started-at="2019-08-20T12:53:50Z" name="Test" finished-at="2019-08-20T12:58:55Z" duration-ms="305098">
+    <test started-at="2019-08-20T14:07:52Z" name="Test" finished-at="2019-08-20T14:13:06Z" duration-ms="313631">
       <class name="Guru.Project.TelecomProjectForTestNG.Tests.testCase_TST011_CheckingCustBill">
-        <test-method is-config="true" signature="initilize()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_TST011_CheckingCustBill@236e3f4e]" started-at="2019-08-20T12:58:20Z" name="initilize" finished-at="2019-08-20T12:58:27Z" duration-ms="7487" status="PASS">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_TST011_CheckingCustBill@53aac487]" started-at="2019-08-20T14:12:30Z" name="initilize" finished-at="2019-08-20T14:12:38Z" duration-ms="7670" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilize -->
-        <test-method signature="CheckingBillOfCustomer()[pri:10, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_TST011_CheckingCustBill@236e3f4e]" started-at="2019-08-20T12:58:27Z" name="CheckingBillOfCustomer" finished-at="2019-08-20T12:58:54Z" duration-ms="27048" status="PASS">
+        <test-method signature="CheckingBillOfCustomer()[pri:10, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_TST011_CheckingCustBill@53aac487]" started-at="2019-08-20T14:12:38Z" name="CheckingBillOfCustomer" finished-at="2019-08-20T14:13:05Z" duration-ms="26883" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckingBillOfCustomer -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_TST011_CheckingCustBill@236e3f4e]" started-at="2019-08-20T12:58:54Z" name="TearDown" finished-at="2019-08-20T12:58:55Z" duration-ms="829" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_TST011_CheckingCustBill@53aac487]" started-at="2019-08-20T14:13:05Z" name="TearDown" finished-at="2019-08-20T14:13:06Z" duration-ms="872" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- Guru.Project.TelecomProjectForTestNG.Tests.testCase_TST011_CheckingCustBill -->
       <class name="Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests">
-        <test-method is-config="true" signature="initilize()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@157853da]" started-at="2019-08-20T12:55:03Z" name="initilize" finished-at="2019-08-20T12:55:10Z" duration-ms="7175" status="PASS">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@72e5a8e]" started-at="2019-08-20T14:09:40Z" name="initilize" finished-at="2019-08-20T14:09:47Z" duration-ms="7303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilize -->
-        <test-method signature="addingNewTariff()[pri:4, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@157853da]" started-at="2019-08-20T12:55:10Z" name="addingNewTariff" finished-at="2019-08-20T12:55:26Z" duration-ms="15896" status="PASS">
+        <test-method signature="addingNewTariff()[pri:4, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@72e5a8e]" started-at="2019-08-20T14:09:47Z" name="addingNewTariff" finished-at="2019-08-20T14:10:03Z" duration-ms="15663" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addingNewTariff -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@157853da]" started-at="2019-08-20T12:55:26Z" name="TearDown" finished-at="2019-08-20T12:55:27Z" duration-ms="834" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@72e5a8e]" started-at="2019-08-20T14:10:03Z" name="TearDown" finished-at="2019-08-20T14:10:04Z" duration-ms="849" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="initilize()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@157853da]" started-at="2019-08-20T12:55:27Z" name="initilize" finished-at="2019-08-20T12:55:35Z" duration-ms="8003" status="PASS">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@72e5a8e]" started-at="2019-08-20T14:10:04Z" name="initilize" finished-at="2019-08-20T14:10:12Z" duration-ms="7774" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilize -->
-        <test-method signature="validating_SpecialChar_TST007()[pri:5, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@157853da]" started-at="2019-08-20T12:55:35Z" name="validating_SpecialChar_TST007" finished-at="2019-08-20T12:55:50Z" duration-ms="14872" status="PASS">
+        <test-method signature="validating_SpecialChar_TST007()[pri:5, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@72e5a8e]" started-at="2019-08-20T14:10:12Z" name="validating_SpecialChar_TST007" finished-at="2019-08-20T14:10:26Z" duration-ms="14948" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validating_SpecialChar_TST007 -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@157853da]" started-at="2019-08-20T12:55:50Z" name="TearDown" finished-at="2019-08-20T12:55:51Z" duration-ms="1059" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@72e5a8e]" started-at="2019-08-20T14:10:26Z" name="TearDown" finished-at="2019-08-20T14:10:27Z" duration-ms="870" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="initilize()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@157853da]" started-at="2019-08-20T12:55:51Z" name="initilize" finished-at="2019-08-20T12:56:19Z" duration-ms="28128" status="PASS">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@72e5a8e]" started-at="2019-08-20T14:10:27Z" name="initilize" finished-at="2019-08-20T14:10:35Z" duration-ms="7730" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilize -->
-        <test-method signature="validating_NumbersAndMustNotEmpty_TST009()[pri:6, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@157853da]" started-at="2019-08-20T12:56:19Z" name="validating_NumbersAndMustNotEmpty_TST009" finished-at="2019-08-20T12:56:44Z" duration-ms="24742" status="PASS">
+        <test-method signature="validating_NumbersAndMustNotEmpty_TST009()[pri:6, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@72e5a8e]" started-at="2019-08-20T14:10:35Z" name="validating_NumbersAndMustNotEmpty_TST009" finished-at="2019-08-20T14:10:59Z" duration-ms="24372" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validating_NumbersAndMustNotEmpty_TST009 -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@157853da]" started-at="2019-08-20T12:56:44Z" name="TearDown" finished-at="2019-08-20T12:56:45Z" duration-ms="839" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@72e5a8e]" started-at="2019-08-20T14:10:59Z" name="TearDown" finished-at="2019-08-20T14:11:00Z" duration-ms="893" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="initilize()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@157853da]" started-at="2019-08-20T12:56:45Z" name="initilize" finished-at="2019-08-20T12:56:53Z" duration-ms="7671" status="PASS">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@72e5a8e]" started-at="2019-08-20T14:11:00Z" name="initilize" finished-at="2019-08-20T14:11:08Z" duration-ms="8046" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilize -->
-        <test-method signature="validating_CharacterNotAllowed_TST008()[pri:7, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@157853da]" started-at="2019-08-20T12:56:53Z" name="validating_CharacterNotAllowed_TST008" finished-at="2019-08-20T12:57:17Z" duration-ms="24692" status="PASS">
+        <test-method signature="validating_CharacterNotAllowed_TST008()[pri:7, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@72e5a8e]" started-at="2019-08-20T14:11:08Z" name="validating_CharacterNotAllowed_TST008" finished-at="2019-08-20T14:11:33Z" duration-ms="24203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validating_CharacterNotAllowed_TST008 -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@157853da]" started-at="2019-08-20T12:57:17Z" name="TearDown" finished-at="2019-08-20T12:57:18Z" duration-ms="842" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@72e5a8e]" started-at="2019-08-20T14:11:33Z" name="TearDown" finished-at="2019-08-20T14:11:33Z" duration-ms="850" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="initilize()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@157853da]" started-at="2019-08-20T12:57:18Z" name="initilize" finished-at="2019-08-20T12:57:26Z" duration-ms="7623" status="PASS">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@72e5a8e]" started-at="2019-08-20T14:11:33Z" name="initilize" finished-at="2019-08-20T14:11:41Z" duration-ms="7207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilize -->
-        <test-method signature="validating_SMSPerCharges()[pri:8, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@157853da]" started-at="2019-08-20T12:57:26Z" name="validating_SMSPerCharges" finished-at="2019-08-20T12:57:39Z" depends-on-methods="Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests.validating_CharacterNotAllowed_TST008" duration-ms="12970" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:568)
-at org.testng.Assert.assertEquals(Assert.java:578)
-at Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests.validating_SMSPerCharges(testCase_AddingNewTariffPageTests.java:153)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="validating_SMSPerCharges()[pri:8, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@72e5a8e]" started-at="2019-08-20T14:11:41Z" name="validating_SMSPerCharges" finished-at="2019-08-20T14:11:49Z" depends-on-methods="Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests.validating_CharacterNotAllowed_TST008" duration-ms="8288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validating_SMSPerCharges -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@157853da]" started-at="2019-08-20T12:57:39Z" name="TearDown" finished-at="2019-08-20T12:57:39Z" duration-ms="826" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests@72e5a8e]" started-at="2019-08-20T14:11:49Z" name="TearDown" finished-at="2019-08-20T14:11:50Z" duration-ms="842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- Guru.Project.TelecomProjectForTestNG.Tests.testCase_AddingNewTariffPageTests -->
       <class name="Guru.Project.TelecomProjectForTestNG.Tests.testCase_TST010_AddTariffPlanToCust">
-        <test-method is-config="true" signature="initilize()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_TST010_AddTariffPlanToCust@71c3b41]" started-at="2019-08-20T12:57:40Z" name="initilize" finished-at="2019-08-20T12:57:47Z" duration-ms="7831" status="PASS">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_TST010_AddTariffPlanToCust@54e1c68b]" started-at="2019-08-20T14:11:50Z" name="initilize" finished-at="2019-08-20T14:11:58Z" duration-ms="8001" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilize -->
-        <test-method signature="addTariffToCustomer()[pri:9, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_TST010_AddTariffPlanToCust@71c3b41]" started-at="2019-08-20T12:57:47Z" name="addTariffToCustomer" finished-at="2019-08-20T12:58:19Z" duration-ms="31528" status="PASS">
+        <test-method signature="addTariffToCustomer()[pri:9, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_TST010_AddTariffPlanToCust@54e1c68b]" started-at="2019-08-20T14:11:58Z" name="addTariffToCustomer" finished-at="2019-08-20T14:12:29Z" duration-ms="31423" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addTariffToCustomer -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_TST010_AddTariffPlanToCust@71c3b41]" started-at="2019-08-20T12:58:19Z" name="TearDown" finished-at="2019-08-20T12:58:20Z" duration-ms="878" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.testCase_TST010_AddTariffPlanToCust@54e1c68b]" started-at="2019-08-20T14:12:29Z" name="TearDown" finished-at="2019-08-20T14:12:30Z" duration-ms="827" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- Guru.Project.TelecomProjectForTestNG.Tests.testCase_TST010_AddTariffPlanToCust -->
       <class name="Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests">
-        <test-method is-config="true" signature="initilize()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests@343570b7]" started-at="2019-08-20T12:53:50Z" name="initilize" finished-at="2019-08-20T12:54:01Z" duration-ms="10598" status="PASS">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests@7d4f9aae]" started-at="2019-08-20T14:07:52Z" name="initilize" finished-at="2019-08-20T14:08:09Z" duration-ms="17221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilize -->
-        <test-method signature="addingNewCustomerTest()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests@343570b7]" started-at="2019-08-20T12:54:01Z" name="addingNewCustomerTest" finished-at="2019-08-20T12:54:19Z" duration-ms="18562" status="PASS">
+        <test-method signature="addingNewCustomerTest()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests@7d4f9aae]" started-at="2019-08-20T14:08:09Z" name="addingNewCustomerTest" finished-at="2019-08-20T14:08:51Z" duration-ms="41793" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addingNewCustomerTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests@343570b7]" started-at="2019-08-20T12:54:19Z" name="TearDown" finished-at="2019-08-20T12:54:20Z" duration-ms="820" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests@7d4f9aae]" started-at="2019-08-20T14:08:51Z" name="TearDown" finished-at="2019-08-20T14:08:52Z" duration-ms="1111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="initilize()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests@343570b7]" started-at="2019-08-20T12:54:20Z" name="initilize" finished-at="2019-08-20T12:54:28Z" duration-ms="8116" status="PASS">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests@7d4f9aae]" started-at="2019-08-20T14:08:52Z" name="initilize" finished-at="2019-08-20T14:09:01Z" duration-ms="8963" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilize -->
-        <test-method signature="testCaseForMobileField()[pri:1, instance:Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests@343570b7]" started-at="2019-08-20T12:54:28Z" name="testCaseForMobileField" finished-at="2019-08-20T12:54:44Z" duration-ms="16222" status="FAIL">
+        <test-method signature="testCaseForMobileField()[pri:1, instance:Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests@7d4f9aae]" started-at="2019-08-20T14:09:01Z" name="testCaseForMobileField" finished-at="2019-08-20T14:09:20Z" duration-ms="19268" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [false] but found [true]]]>
@@ -217,19 +176,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseForMobileField -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests@343570b7]" started-at="2019-08-20T12:54:44Z" name="TearDown" finished-at="2019-08-20T12:54:45Z" duration-ms="844" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests@7d4f9aae]" started-at="2019-08-20T14:09:20Z" name="TearDown" finished-at="2019-08-20T14:09:21Z" duration-ms="844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="initilize()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests@343570b7]" started-at="2019-08-20T12:54:45Z" name="initilize" finished-at="2019-08-20T12:54:53Z" duration-ms="7463" status="PASS">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests@7d4f9aae]" started-at="2019-08-20T14:09:21Z" name="initilize" finished-at="2019-08-20T14:09:29Z" duration-ms="8235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilize -->
-        <test-method signature="testCaseForAddCuustTextFields()[pri:3, instance:Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests@343570b7]" started-at="2019-08-20T12:54:53Z" name="testCaseForAddCuustTextFields" finished-at="2019-08-20T12:55:02Z" duration-ms="9686" status="PASS">
+        <test-method signature="testCaseForAddCuustTextFields()[pri:3, instance:Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests@7d4f9aae]" started-at="2019-08-20T14:09:29Z" name="testCaseForAddCuustTextFields" finished-at="2019-08-20T14:09:39Z" duration-ms="9577" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseForAddCuustTextFields -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests@343570b7]" started-at="2019-08-20T12:55:02Z" name="TearDown" finished-at="2019-08-20T12:55:03Z" duration-ms="841" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Guru.Project.TelecomProjectForTestNG.Tests.addNewCustomerTestPageTests@7d4f9aae]" started-at="2019-08-20T14:09:39Z" name="TearDown" finished-at="2019-08-20T14:09:40Z" duration-ms="874" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->

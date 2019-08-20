@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 //import java.util.logging.Logger;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -19,6 +20,7 @@ public class TelecomBase {
 	public  WebDriver driver;
 	public Properties prop;
 //	public static Logger logger;
+	public static Logger log= Logger.getLogger(TelecomBase.class);
 	public WebDriver initializeBrowser() throws IOException {
 		prop=new Properties();
 		
@@ -28,14 +30,19 @@ public class TelecomBase {
 //		String url=prop.getProperty("url");
 		if(browserName.equalsIgnoreCase("chrome"))
 		{
+			log.info("***************************Chrome Browser Started*************************");
+			
 			System.setProperty("webdriver.chrome.driver","Y:\\Selenium Softwares\\chromedriver.exe");
 			driver=new ChromeDriver();
 		}
 		else if(browserName.equalsIgnoreCase("firefox")){
+			log.info("***************************FireFox Browser Started*************************");
 			System.setProperty("webdriver.firefox.driver","Y:\\Selenium Softwares\\geckodriver.exe");
 			driver=new FirefoxDriver();	
 		}
 		else if(browserName.equalsIgnoreCase("edge")){
+			log.info("***************************Edge Browser Started*************************");
+			
 			System.setProperty("webdriver.edge.driver","Y:\\Selenium Softwares\\edgedriver.exe");
 			driver=new EdgeDriver();	
 		}
@@ -53,6 +60,7 @@ public class TelecomBase {
 	}
 	public void FailedTestcases(String TestcaseName)
 	{
+		
 		File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		File des= new File("Y:\\New Work Space\\TelecomProject\\Screenshots"+TestcaseName+".jpg");
 		
@@ -66,6 +74,7 @@ public class TelecomBase {
 	
 	public void tearDown()
 	{
+		log.info("*************************** Browser Closed *************************");
 		driver.quit();
 	}
 }
